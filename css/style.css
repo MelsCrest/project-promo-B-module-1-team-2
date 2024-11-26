@@ -1,0 +1,22 @@
+.footer{
+    background-color: #4a99d3;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+}
+.logo-footer {
+    color: white;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+}
+.logo-header{
+    color: #4a99d3;
+    font-weight: bold;
+}
