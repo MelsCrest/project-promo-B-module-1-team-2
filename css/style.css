@@ -91,6 +91,7 @@
     transform: scale(0.9);
 }
 
+
 .section4 {
     width: 100%;
     background-color: rgba(74, 153, 211, 0.1);
@@ -135,6 +136,25 @@
 .img_4 {
     width: 20%;
     padding-bottom: 20px;
+}
+
+@media (width > 500px) {
+    .section4 {
+        display: flex;
+        
+    } 
+
+    .titulo_section4 {
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .all_article4 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
 }
 
 .section5{
