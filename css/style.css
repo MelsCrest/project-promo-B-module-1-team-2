@@ -135,23 +135,17 @@
 
 .section5{
     background-color: white;
-    box-shadow: 5px 20px 50px #d9d9d9;;
+    background-image: linear-gradient(#FFFFFF,#d9d9d9);
     font-weight: bold;
     font-size: 23px;
+    line-height: 27,6px ;
     display: flex;
     flex-direction: column;
     padding-top: 17px;
     padding-right: 22px;
-    padding-bottom: 36px;
+    padding-bottom: 105px;
     padding-left: 20px;
-    justify-content: flex-start;
-    
-    
-}
-
-.container5{
-   
-
+    margin-bottom: 0%;
 }
 
 
@@ -159,8 +153,6 @@
    color: #f85e9f;
    line-height: 27,6px;
    letter-spacing: 4.6px;
-   font-style: normal;
-   line-height: 1.2;
    padding-top: 64px;
    padding-bottom: 64px;
 }
@@ -169,12 +161,12 @@
 .article5{
     background-color: white;
     font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     display: flex;
     flex-direction: column;
-    border-radius: 45px;
-    width: 90%;
+    border-radius: 40px;
+    width: 100%;
+
 }
 
 .article5>img {
@@ -182,13 +174,22 @@
 }
 
 .product{
-    padding: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 60px;
+    padding-left: 32px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; 
 }
 
+
+.product2{
+    padding-bottom: 32px;
+}
+
+
 span{
-    color: #f85e9f;  
+    color: #f85e9f; 
 }
 .footer{
     background-color: #4a99d3;
