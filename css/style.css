@@ -134,20 +134,23 @@
 }
 
 .section5{
-    background-color: #d9d9d9;;
+    background-color: white;
+    box-shadow: 5px 20px 50px #d9d9d9;;
     font-weight: bold;
     font-size: 23px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 20px; 
-    top: 10px;
-    right: 10px;
-    width: 100%;
+    padding-top: 17px;
+    padding-right: 22px;
+    padding-bottom: 36px;
+    padding-left: 20px;
+    justify-content: flex-start;
+    
     
 }
 
 .container5{
+   
 
 }
 
@@ -165,10 +168,12 @@
 
 .article5{
     background-color: white;
+    font-weight: 800;
+    line-height: 1.2;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    border-radius: 35px;
+    border-radius: 45px;
     width: 90%;
 }
 
