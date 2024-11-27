@@ -102,7 +102,6 @@
     transform: scale(0.9);
 }
 
-<<<<<<< HEAD
 @media (min-width: 768px) {
     .section3 {
         background-color: #ffffff;
@@ -119,8 +118,6 @@
 }
 
 /* Fin sección 3 */
-=======
->>>>>>> origin/section4
 
 .section4 {
     width: 100%;
