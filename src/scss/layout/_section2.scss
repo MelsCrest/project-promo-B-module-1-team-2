@@ -1,0 +1,27 @@
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 72px 0px 25px;
+  background-color: #4b008142;
+  /*por el momento*/
+  width: 100%;
+}
+
+.section2-title {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  color: #260041;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.section2-text {
+  font-size: 20px;
+  color: #260041;
+  padding-bottom: 25px;
+  line-height: 1.8;
+  text-align: left;
+}
