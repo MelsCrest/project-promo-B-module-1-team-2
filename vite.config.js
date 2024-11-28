@@ -55,14 +55,14 @@ export default defineConfig({
     },
   },
   
-  // server: {
-  //   open: "/index.html",
-  // },
+  server: {
+    open: "/index.html",
+   },
   
   server: {
     watch: {
       usePolling: true
-    },
+    }
   },
     
   plugins: [
