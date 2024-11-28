@@ -15,7 +15,10 @@
   display: none;
 }
 @media (width>768px) {
-  .menu-header{
-      display: fl;
+  .menu-header {
+    gap: 10px;
+  }
+  .items-menu-header{
+    display: inline;
   }
 }

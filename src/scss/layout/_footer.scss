@@ -1,19 +1,36 @@
 .footer {
   background-color: #4a99d3;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-content: center;
   padding-top: 40px;
   padding-bottom: 100px;
+  color: white;
+  gap: 40px;
 }
 
 .logo-footer {
-  color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .socials {
   display: flex;
   gap: 20px;
+}
+.menu-footer{
+  line-height: 1.5;
+  display: none;
+}
+@media (width>768px){
+  .footer{
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu-footer {
+    display: block;
+  }
+  .logosocials {
+    line-height: 5;  
+  }
 }
