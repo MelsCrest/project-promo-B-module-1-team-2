@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-header {
+  color: #4a99d3;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 20px;
+}
+.items-menu-header{
+  display: none;
+}
+@media (width>768px) {
+  .menu-header{
+      display: fl;
+  }
+}
