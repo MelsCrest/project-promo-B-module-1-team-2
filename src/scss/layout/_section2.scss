@@ -38,36 +38,37 @@
 
 
 @media (width>768px){
-.section2-text{
-  margin-bottom: 60px;
-}
-.section2-buttons{
-  width: 90%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-}
-.section2-box-left, .section2-box-right{
-  width: 60%;
-  height: 60px;
-}
+  .section2-text{
+    margin-bottom: 60px;
+  }
+  .section2-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 151px;
+  }
+  .section2-box-left, .section2-box-right{
+    width: 60%;
+    height: 60px;
+  }
 
-.section2-left{
-  // padding-left: 255px;
-  width: 50%;
-}
-.section2-right{
-  width: 50%;
-  background-color: blue;
-  // padding-right: 76px;
-  padding-bottom: 75.2px;
-  display: flex;
-  justify-content: end;
-}
+  .section2-left{
+    // padding-left: 255px;
+    width: 50%;
+  }
+  .section2-right{
+    width: 50%;
+    // padding-right: 76px;
+    padding-bottom: 75.2px;
+    display: flex;
+    justify-content: end;
+  }
 
-.section2-right img{
-  width: 100%;
-}
+  .section2-right img{
+    object-fit: contain;
+    width: 100%;
+  }
 
 }
