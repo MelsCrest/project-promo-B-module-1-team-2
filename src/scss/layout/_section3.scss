@@ -1,8 +1,12 @@
+$font-slab: 'Roboto Slab';
+
 .section3 {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-content: space-evenly;
+    margin-top: 150px;
+    margin-bottom: 90px;
 }
 
 .titulo-principal-section3 { 
@@ -15,6 +19,7 @@
 }
 
 .article3 {
+    font-family: $font-slab;
     border-radius: 10px;
     background-color: #ffffff;
     margin: 50px;
@@ -27,23 +32,28 @@
 
 .titulo-secundario-section3 { /* ajustar font- family*/
     font-size: 20px;
+    font-weight: bold;
     color: #0f001a;
+    letter-spacing: 0.4px;
     margin-top: 20px;
-    margin-bottom: 8.5px;
+    margin-bottom: 20px;
+}
+
+.description {  /* ajustar font- family*/
+    font-size: 16px;
+    color: #0f001a;
+    opacity: 60%;
+    line-height: 26px;
 }
 
 .learn-more3 { /* ajustar font- family*/
     font-size: 14px;
-    color: #4a99d3;
+    font-weight: bold;
+    color: rgb(74, 153, 211);
     text-decoration: none;
     padding-bottom: 8.5px;
-}
-
-.section3 p {  /* ajustar font- family*/
-    font-size: 16px;
-    color: #0f001a;
-    opacity: 60%;
-    margin-bottom: 15px;
+    line-height: 30px;
+    letter-spacing: 0.7px;
 }
 
 .img3 {
@@ -66,4 +76,8 @@
     .column3 {
         width: 50%;
     }
+}
+
+@media (min-width: 1440px) {
+
 }
