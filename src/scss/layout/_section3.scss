@@ -2,8 +2,16 @@ $font-slab: 'Roboto Slab';
 
 .section3 {
     background-color: #ffffff;
-    margin-top: 150px;
-    margin-bottom: 140px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+    box-shadow: inset 0 4px 16px rgb(75, 0, 129, 26%);
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-principal-section3 { 
@@ -42,6 +50,7 @@ $font-slab: 'Roboto Slab';
     color: #0f001a;
     opacity: 60%;
     line-height: 26px;
+    padding-bottom: 14px;
 }
 
 .learn-more3 {
@@ -66,6 +75,7 @@ $font-slab: 'Roboto Slab';
         background-color: #ffffff;
         display: flex;
         flex-direction: row;
+        padding: 7%;
     }
 
     .column3 {
@@ -75,16 +85,4 @@ $font-slab: 'Roboto Slab';
         justify-content: center;
         align-items: center;
     }
-}
-
-@media (min-width: 1440px) {
-    // .article3 {
-    //     font-family: $font-slab;
-    //     border-radius: 10px;
-    //     background-color: #ffffff;
-    //     margin: 50px;
-    //     padding: 7%;
-    // }
-
-
 }
