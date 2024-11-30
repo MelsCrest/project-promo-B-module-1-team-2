@@ -9,8 +9,7 @@
 }
 
 .container5 {
-    display: flex;
-    flex-direction: column;
+    display: block;
   
 
     @media (min-width: 768px){
@@ -27,7 +26,7 @@
     letter-spacing: 4.6px;
     padding-top: 64px;
     padding-bottom: 64px;
-
+  
 
 }
 
@@ -53,7 +52,7 @@
     padding: 32px 32px 60px 32px;
     display: flex;
     justify-content: space-between;
-    text-align: left;
+
     
     @media (min-width: 768px){
     padding-bottom: 32px;
