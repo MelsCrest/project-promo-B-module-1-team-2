@@ -8,7 +8,10 @@
   color: white;
   gap: 40px;
 }
-
+.logosocials{
+  display: flex;
+  justify-content: space-evenly;
+}
 .logo-footer {
   font-weight: bold;
   font-size: 25px;

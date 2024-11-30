@@ -10,15 +10,25 @@
   font-weight: bold;
   font-size: 40px;
   padding-left: 20px;
-}
+  }
 .items-menu-header{
   display: none;
 }
 @media (width>768px) {
   .menu-header {
-    gap: 10px;
+    display: flex;
+    gap: 20px;
   }
   .items-menu-header{
     display: inline;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #0f001a;
+      &.home{
+      color: #4a99d3;
+    }
+  }
+  .burger{
+    display: none;
   }
 }
