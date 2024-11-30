@@ -6,7 +6,7 @@
     align-items: center;
     position: relative;
     padding: 20px;
-    @media (width > 768px) {
+    @media (min-width: 1024px) {
         display: flex;
         &all_article4 {
             display: flex;
@@ -29,6 +29,7 @@
         justify-content: center;
     }
 }
+
 
 .article_4 {
     display: flex;
@@ -57,7 +58,7 @@
     padding-bottom: 20px;
 }
 
-@media (width > 768px) {
+/*@media (width > 768px) {
     .section4 {
         display: flex;
         
@@ -79,4 +80,4 @@
     }
 
     
-}
+}*/
