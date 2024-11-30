@@ -2,72 +2,96 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background-color: blue;
 
   &_left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 5px 72px 0px 25px;
-    width: 100%;
-    @media (width>768px){
-      // padding-left: 255px;
-      width: 50%;
+    // background-color: green;
+    @media (min-width:768px){
+      justify-content: center;
+      width: 60%;
+    }
+    @media (min-width:1440px){
+      margin-left: 255px;
     }
 
     &-title{
       font-size: 50px;
       font-weight: 500;
-      padding-bottom: 30px;
+      margin-bottom: 30px;
       color: #260041;
       line-height: 1.4;
       letter-spacing: 1px;
       text-align: left;
+      @media (min-width:768px){
+        margin-bottom: 15px;
+        // background-color: orange;
+        margin-right: 19px;
+      }
     }
 
     &-text{
       font-size: 20px;
       color: #260041;
-      padding-bottom: 25px;
+      margin-bottom: 25px;
       line-height: 1.8;
       text-align: left;
-      @media (width>768px){
+      @media (min-width:768px){
+        // background-color: yellow;
         margin-bottom: 60px;
+        margin-right: 0;
       }
     }
 
     &-buttons{
+      // background-color: pink;
       display: none;
-      @media (width>768px){
+      @media (min-width:768px){
         width: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         gap: 10px;
-        margin-bottom: 151px;
       }
     }
   }
 
   &_right{
     display: none;
-    @media (width>768px){
-      width: 50%;
-      // padding-right: 76px;
-      padding-bottom: 75.2px;
+    @media (min-width:768px){
+      // background-color: red;
+      width: 40%;
       display: flex;
       justify-content: end;
+      margin-bottom: 75.2px;
+      margin-right: 76px;
     }
+    // @media (min-width:1440px){
+    //   margin-bottom: 75.2px;
+    //   margin-right: 76px;
+    // }
   }
 }
 
-@media (width>768px){
-  .box_left, .box_right{
+
+  //Buttons
+.box_left, .box_right{
+  @media (min-width:768px){
     width: 60%;
-    height: 60px;
+    // height: 50px;
+    margin-bottom: 151px;
   }
+}
+
+  //Mockup image
+@media (min-width:768px){
   .section2_right img{
     object-fit: contain;
     width: 100%;
   }
 }
+
 
