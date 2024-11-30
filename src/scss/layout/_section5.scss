@@ -4,15 +4,11 @@
     font-weight: bold;
     font-size: 23px;
     line-height: 27, 6px;
-    padding-top: 20px;
-    padding-right: 22px;
-    padding-bottom: 105px;
-    padding-left: 20px;
-    margin-bottom: 0%;
+    padding: 20px 22px 105px 20px;
+    
     
     @media (min-width: 768px){
-    padding-right: 122px;
-    padding-left: 134px;
+ 
     }
 }
 
@@ -24,7 +20,10 @@
     @media (min-width: 768px){
     display:flex;
     flex-direction: row;
-    gap: 16px;
+    justify-content: center;
+    gap: 30px;
+    
+  
    
 }
 }
@@ -55,10 +54,7 @@
 }
 
 .seccion5product {
-    padding-top: 32px;
-    padding-right: 32px;
-    padding-bottom: 60px;
-    padding-left: 32px;
+    padding: 32px 32px 60px 32px;
     display: flex;
     justify-content: space-between;
     @media (min-width: 768px){
