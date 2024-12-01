@@ -2,14 +2,13 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: blue;
+  
 
   &_left{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 5px 72px 0px 25px;
-    background-color: green;
     @media (min-width:768px){
       justify-content: center;
       width: 45%;
@@ -28,7 +27,6 @@
       text-align: left;
       @media (min-width:768px){
         margin-bottom: 15px;
-        background-color: orange;
         margin-top: 74px;
       }
     }
@@ -40,14 +38,12 @@
       line-height: 1.8;
       text-align: left;
       @media (min-width:768px){
-        background-color: yellow;
         margin-bottom: 60px;
         margin-right: 0;
       }
     }
 
     &-buttons{
-      background-color: pink;
       display: none;
       @media (min-width:768px){
         width: 65%;
@@ -68,7 +64,6 @@
   &_right{
     display: none;
     @media (min-width:768px){
-      background-color: red;
       width: 35%;
       display: flex;
       justify-content: end;
