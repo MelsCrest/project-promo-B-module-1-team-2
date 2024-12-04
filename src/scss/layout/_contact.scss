@@ -1,3 +1,8 @@
+@import 'header';
+@import 'footer';
+@import '../core/variables';
+@import '../core/reset';
+
 .div {
     display: flex;
     flex-direction: column;
@@ -18,53 +23,71 @@
 .title {
     color: #4a99d3;
     border-bottom: 1px solid  #4a99d3;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 0.24px;    
-    padding-top:22px;
-}
-
-.form_title{
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 18px;
-}
-
-.form_box{
-    padding-top: 30px;
-}
-
-.button{
-    width:250px;
-    height: 54px;
-    background-color: #4a99d3;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: 0px;
-    border-radius:4px;
-    margin-top: 31px;
-    margin-bottom: 87px;
-}
-
-/*mapas*/
-.map-small{
-width: 100%;
+    width: 150px;
+    margin-top: 100px;
+    font-family: $font-contact;
+    font-size: 2.4rem;
+    text-align: center;
 }
 
 .map-medium {
     display: none;
-}
 
-@media (min-width: 768px) {
-    .map-small{
-        display: none;
-    }
-        
-    .map-medium {
+    @media (min-width: 768px) {
         display: inline;
-        width: 100%;
+
     }
 }
 
+.form_title {
+    font-family: $font-contact;
+    font-size: 2rem;
+    padding-top: 28px;
+    margin-bottom: 20px;
+}
 
+.name {
+    font-family: $font-contact;
+    font-size: 1.6rem;
+    
+}
+
+fieldset {
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+input, textarea {
+    border: none;
+    margin: 5px;  
+}
+
+input {
+    height: 30px;
+}
+
+#email {
+    height: 35px;
+}
+
+.form_b {
+    width: 350px;
+    font-family: $font-contact;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(74, 153, 211);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.map {
+    margin: 60px;
+}
+
+.div_section {
+    @media (min-width: 768px) {
+        display: grid;
+    }
+}
