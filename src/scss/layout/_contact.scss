@@ -1,3 +1,8 @@
+@import 'header';
+@import 'footer';
+@import '../core/variables';
+@import '../core/reset';
+
 .div {
     display: flex;
     flex-direction: column;
@@ -8,10 +13,46 @@
 .title {
     color: #4a99d3;
     border-bottom: 1px solid  #4a99d3;
-    width: 100px;
-    
+    width: 150px;
+    margin-top: 100px;
+    font-family: $font-contact;
+    font-size: 2.4rem;
+    text-align: center;
 }
 
 .map-medium {
     display: none;
+}
+
+.form_title {
+    font-family: $font-contact;
+    font-size: 2rem;
+    padding-top: 28px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-family: $font-contact;
+    font-size: 1.6rem;
+}
+
+fieldset {
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+input, textarea {
+    border: none;
+    margin: 5px;
+   
+}
+
+input {
+    height: 30px;
+}
+
+#email {
+    height: 38px;
 }
