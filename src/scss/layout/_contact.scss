@@ -22,6 +22,11 @@
 
 .map-medium {
     display: none;
+
+    @media (min-width: 768px) {
+        display: inline;
+
+    }
 }
 
 .form_title {
@@ -69,4 +74,10 @@ input {
 
 .map {
     margin: 60px;
+}
+
+.div_section {
+    @media (min-width: 768px) {
+        display: grid;
+    }
 }
