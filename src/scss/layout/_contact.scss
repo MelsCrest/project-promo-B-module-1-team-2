@@ -43,7 +43,7 @@
     font-family: $font-contact;
     font-size: 2rem;
     padding-top: 28px;
-    margin-bottom: 20px;
+    margin: 15px 15px 30px 15px;
 }
 
 .name {
@@ -57,7 +57,7 @@ fieldset {
     margin-bottom: 20px;
     border-radius: 10px;
     width: 350px;
-    margin: 60px;
+    margin: 15px;
     @media (min-width: 768px) {
         width: 300px;
         margin: 10px;
@@ -85,6 +85,7 @@ input {
     background-color: rgb(74, 153, 211);
     border-radius: 4px;
     font-weight: bold;
+    margin: 15px;
     @media (min-width: 768px) {
         width: 300px;
     }
