@@ -9,7 +9,17 @@
     align-items: center;
 }
 
+@media (min-width: 768px) {
+    .div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:30px;
+    }
+}
 
+/*Formulario*/
 .title {
     color: #4a99d3;
     border-bottom: 1px solid  #4a99d3;
