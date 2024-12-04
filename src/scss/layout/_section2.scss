@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background: rgb(74,153,211);
+  background: linear-gradient(180deg, rgba(74, 154, 211, 0.135) 0%, rgba(255,255,255,1) 40%);
   
 
   &_left{

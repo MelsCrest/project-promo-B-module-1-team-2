@@ -4,14 +4,67 @@
     align-items: center;
 }
 
+@media (min-width: 768px) {
+    .div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:30px;
+    }
+}
 
+/*Formulario*/
 .title {
     color: #4a99d3;
     border-bottom: 1px solid  #4a99d3;
-    width: 100px;
-    
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.24px;    
+    padding-top:22px;
+}
+
+.form_title{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 18px;
+}
+
+.form_box{
+    padding-top: 30px;
+}
+
+.button{
+    width:250px;
+    height: 54px;
+    background-color: #4a99d3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    border-radius:4px;
+    margin-top: 31px;
+    margin-bottom: 87px;
+}
+
+/*mapas*/
+.map-small{
+width: 100%;
 }
 
 .map-medium {
     display: none;
 }
+
+@media (min-width: 768px) {
+    .map-small{
+        display: none;
+    }
+        
+    .map-medium {
+        display: inline;
+        width: 100%;
+    }
+}
+
+
