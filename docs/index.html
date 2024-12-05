@@ -1,69 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f4088c47c.js" crossorigin="anonymous"></script>
+    <title>Home</title>
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
-  </head>
-
-  <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    
+  <link rel="stylesheet" href="./assets/index-1e90efda.css">
+</head>
+<body>
+    <header class="header">
+    <p class="logo-header">AdaShop</p>
+    <nav>
+        <i class="fa-solid fa-bars burger" style="color: #4a99d3; font-size: 25px;"></i>
+        <ul class="menu-header">
+            <a href="../index.html"><li class="items-menu-header home">Home</li></a>
+            <li class="items-menu-header">Nosotros</li>
+            <a href="/partials/contact.html"><li class="items-menu-header">Contáctanos</li></a>
+        </ul>
+    </nav>
 </header>
-
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
-
-    </li>
-  </ul>
-</main>
-
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
-</footer>
-
+    <main>
+        <section class="section2">
+    <div class="section2_left">
+        <h1 class="section2_left-title">Nueva App E-commerce PAGAM(e)</h1>
+        <p class="section2_left-text">Compra online de forma rápida y segura, encuentra los productos que necesitas. Con nuestra app, elige, paga y recibe con facilidad. No esperes más, haz tu compra ahora.</p>
+        <div class="section2_left-buttons">
+            <img class="buttons_img" src="./images/google.svg" alt="">
+            <img class="buttons_img" src="./images/apple.svg" alt="">
+            
+        </div>
     </div>
-    <script src="./js/main.js"></script>
-  </body>
+    <div class="section2_right">
+            <img src="./images/Mockup.png" alt="">
+    </div>
+    </section>
+<section>
+        <section class="section3">
+    <div class="column3">
+        <h2 class="titulo-principal-section3">Cómo podemos ayudarte</h2>
+        <article class="article3">
+            <img class="img3" src="./images/3.png" alt="Envío">
+            <div>
+                <h3 class="titulo-secundario-section3">Envío</h3>
+                <p class="description">Recibe tus compras rápido y seguro, donde quiera que estés. Ofrecemos opciones de envío flexibles para adaptarnos a tus necesidades.</p>
+                <p><a class="learn-more3" href="">Learn more</a></p>
+            </div>
+        </article>
+    </div>
+    <div class="column3">
+        <article class="article3">
+            <img class="img3" src="./images/2.png" alt="Compra">
+            <div>
+                <h3 class="titulo-secundario-section3">Compra</h3>
+                <p class="description">Compra fácil, rápida y segura con solo unos clics. Encuentra todo lo que necesitas al mejor precio.</p>
+                <p><a class="learn-more3" href="">Learn more</a></p>
+            </div>
+        </article>
+        <article class="article3">
+            <img class="img3" src="./images/1.png" alt="Recepción">
+            <div>
+                <h3 class="titulo-secundario-section3">Recepción</h3>
+                <p class="description">Recibe tus pedidos directamente en tu puerta, con seguimiento en tiempo real. ¡Tu satisfacción es nuestra prioridad!</p>
+                <p><a class="learn-more3" href="">Learn more</a></p>
+            </div>
+        </article>
+    </div>
+</section>
+        <section class="section4">
+    <h4 class="section4_title">Cómo <span class="section4_title-span">trabajamos</span></h4>
+    <div class="section4_article">
+        <article class="article4">
+            <img src="./images/user-plus-solid.svg" alt="" class="article4_img img1">
+            <h5 class="article4_title">Crea una cuenta</h5>
+            <p class="article4_p">Crea tu cuenta, completa tu perfil y comienza a usar el servicio.</p>
+        </article>
+        <article class="article4">
+            <img src="./images/check-solid.svg" alt="" class="article4_img">
+            <h5 class="article4_title">Obten autorización</h5>
+            <p class="article4_p">
+                Obten tu autorización para acceder a todas las funcionalidades.</p>
+        </article>
+        <article class="article4">
+            <img src="./images/face-smile-regular.svg" alt="" class="article4_img">
+            <h5 class="article4_title">Disfruta la app</h5>
+            <p class="article4_p">Disfruta de una experiencia rápida, sencilla y personalizada.</p>
+        </article>
+    </div>
+</section>
+        <section class="section5">
+    <h2 class="tittle5">TOP PRODUCTOS</h2>
+    <div class="container5">
+        <article class="article5">
+            <img src="./images/5.png" alt="">
+            <div class="seccion5product">
+                <p>Producto 1</p>
+                <span>€25.16</span> 
+            </div>
+        </article>
+        
+        <article class="article5">
+            <img src="./images/6.png" alt="">
+            <div class="seccion5product  product2">
+                <p> Producto 2 </p>
+                <span>€20.99</span> 
+            </div>
+        </article>
+        <article class="article5">
+            <img src="./images/4.png" alt="">
+            <div class="seccion5product  product2">
+                <p>Producto 3 </p> 
+                <span>€150.9</span>   
+            </div>  
+        </article>  
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="logosocials">
+        <p class="logo-footer">AdaShop</p>
+        <div class="socials">
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;font-size: 20px;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;font-size: 20px"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;font-size: 20px"></i>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;font-size: 20px"></i>
+        </div>
+    </div>
+    <nav class="menu-footer">
+        <ul>
+            <li>Inicio</li>
+            <li>Nosotros</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+</footer>
+</body>
 </html>
