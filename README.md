@@ -1,125 +1,86 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
-
-# Adalab web starter kit
-
-Ahoy! Este es nuestro Starter Kit creado en **node y vite**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
-
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
-
-En el Kit hay 3 tipos de ficheros y carpetas:
-
-- Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos (excepto este README.md, para describir tu proyecto).
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `public/`, que tiene fichero estáticos como imágenes, fuentes, favicon, librerías de JavaScript antiguas (jQuery, ...)
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
-
-## Guía de inicio rápido
-
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) con una versión superior a la 14 para trabajar con este Starter Kit:
-
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
-
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos** que comienzan por un punto.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
-
-```bash
-npm install
-```
-
-### Pasos para arrancar el proyecto:
-
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
-
-```bash
-npm run dev
-```
-
-Este comando:
-
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
-
-Después de ejecutar `npm run dev` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
-
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
-
-```bash
-npm run build
-```
-
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-<!--
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
--->
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-<!--
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
--->
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+# WEB COLABORATIVA PARA TIENDA ONLINE - PAGAM(e)
+## Contenido de la web
+- Sección principal: Información detallada sobre el producto. 
+- Sección "Servicios de ayuda": Descripción detallada de los servicios.
+- Sección "Cómo trabajamos": Descripción detallada de los servicios
+- Sección "Top productos": Destacando nombre del producto y precio.
+## Objetivos
+- Consolidar conocimientos: HTML, CSS, diseño responsive, GitHub pages, Sass, grid, Vite.
+- Uso del control de versiones (GIt/GitHub).
+- Implementar Scrum para el desarrollo del producto, siguiendo valores Aguile (puntos clave trabajo en equipo, mejora continua).
+- Comunicación interna (miembros grupo).
+- Comunicación externa (presentaciones: Sprint Review y presentación final proyecto).
+## Especificaciones
+### Tecnologías
+- HTML y CSS (Sass). 
+- Uso mediaqueries y diseño responsive.
+- Git y GitHub para control de versiones mediante ramas.
+- Publicación en GitHub Pages.
+- Uso de Vite y NodeJS.
+### Características de la página web:
+Páginas de la web:
+- Página principal:
+  Home (index.html): Información principal sobre la aplicación.
+- Página secundaria:
+  Contacto (contacto.html): Información de contacto y formulario.
+- Ambas páginas: header y footer.
+- Header. Fijo parte superior al hacer scroll. 
+Páginas de la web en diseño móvil:
+- Menú navegación (Hamburguesa).
+- Página principal: Diseño vertical de los servicios y productos.
+- Página secundaria: Diseño vertical de los elementos.
+  Contacto (contacto.html): Información de contacto, formulario y mapa.
+- Footer: Logo Adalab. Iconos redes sociales.
+Páginas de la web en diseño tablet:
+- Menú navegación (Home, Nosotros, Contáctanos).
+- Página principal:
+  Sección principal: Introducción de mockup y botones al diseño.
+  Sección "Servicios de ayuda": Distribución en zig-zag del diseño de los servicios.
+  Sección "Cómo trabajamos" y "Top productos": Distribución horizontal.
+- Página secundaria: Diseño horizontal de los elementos.
+  Contacto (contacto.html): Información de contacto, formulario y mapa.
+- Footer: Logo Adalab. Iconos redes sociales. Otro menú navegación (Inicio, Nosotros, Contáctanos).
+### Tamaño responsive de las páginas:
+Móvil, por debajo de 768px. (@media screen and (max-width: 768px)
+Tablet, desde 768px en adelante.(@media screen and (min-width: 768px)
+### Componentes
+Diseño siguiendo guía de estilo en Zeplin.
+-Logo, icono y tipografías: 
+ Logo Adalab.
+ Imágenes.
+ Iconos.
+-Tipografías Google Fonts:
+ Roboto
+### Planificación
+Crear tablero del proyecto.
+Definir tareas principales.
+Working agreements.
+### Historias de usuario
+Primera. Versión móvil de la web.
+- Desarrollo versión para móvil (página principal) con HTML y CSS.
+- Creación contenido web: textos e imágenes.
+- Creación infraestructura necesaria: repositorio GitHub (acceso todos los miembros).
+Segunda. Versión responsive de la web.
+- Diseño de la web para el resto de tamaños (tablet).
+Tercera. Mejora de tecnología.
+- Integración con Vite para automatización de tareas.
+- División HTML en partials.
+- Migración CSS a Sass (usando partials).
+Cuarta.Formulario de contacto
+- Realización del formulario de contacto para todos los dispositivos.
+## INSTALACIÓN
+Dentro del archivo de trabajo abrir una terminal BASH y clonar el repositorio de github.
+Comprobar que la ruta del directorio es la adecuada. Posteriormente instalar las dependencias "node_modules" para la ejecución del framework Vite, e iniciar el proyecto. 
+Clonar repositorio:
+$ git clone https://github.com/MelsCrest/project-promo-B-module-1-team-2.git
+Ruta directorio:
+$ cd ../path/to/the/file
+Instalación dependencias:
+$ npm install
+Iniciar proyecto:
+$ npm start
+## PUBLICACIÓN 
+Primero generar la página para producción. En la terminal BASH introducir los comandos:
+$ npm run build
+A continuación subir la carpeta `docs/` que se acaba de generar a el repositorio. 
+En la pestaña `settings` del repositorio ir al apartado de GitHub Pages y activar la opción **master branch /docs folder**.
